@@ -1,0 +1,9 @@
+First created a lamda function as ebs_volume_check . 
+Then create a Test event so that lamda function can run !!!
+##Deploy before Testing!!!
+Then go to cloud watch -
+Configure rule 
+For checking if the lamda function is exectued you can check in log groups in cloud watch (check latest)
+Now you can write the code in the function .
+After the code is written you have to delete the old volume and create a new volume every time you test the code .
+If the code is correct then the gp2 is converted to gp3 .
